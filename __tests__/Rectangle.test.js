@@ -12,8 +12,9 @@ describe('Rectangle class', () => {
 
         it('should create the Rectangle class property of width', () => {
             const width = 2;
+            const length = 4;
 
-            const testObj = new Rectangle(width);
+            const testObj = new Rectangle(length, width);
 
             expect(testObj.width).toEqual(width);
         });
