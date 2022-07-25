@@ -20,6 +20,16 @@ describe('Rhombus class', () => {
             expect(testObj.diagonal2).toEqual(diagonal2);
         });
 
+        it('should create the Rhombus class property of side', () => {
+            const diagonal1 = 6;
+            const diagonal2 = 5;
+            const side = 6;
+
+            const testObj = new Rhombus(diagonal1, diagonal2, side);
+
+            expect(testObj.side).toEqual(side);
+        });
+
     });
 
     describe('Methods', () => {
