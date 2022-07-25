@@ -26,7 +26,7 @@ describe('Pentagon class', () => {
             const side = 5;
             const apothem = 6;
 
-            const area = 1/2 * (5 * side) * apothem;;
+            const area = 1/2 * (5 * side) * apothem;
 
             const testObj = new Pentagon(side, apothem);
 
